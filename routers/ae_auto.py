@@ -25,4 +25,4 @@ async def ae_expressions(msg: MsgCreate):
 
     # 返回结果
 
-    return {"res":"this is from fastpi","your_qa":user_question}
+    return {"res":"this is from fastpi","content":user_question}

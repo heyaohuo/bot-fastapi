@@ -11,8 +11,6 @@ class MsgCreate(MsgBase):
 
 
 class Out(BaseModel):
-    time: str | None = None   
-    category: str | None = None
-    code: str | None = None
+    res: str | None = None   
     content: str | None = None
 
